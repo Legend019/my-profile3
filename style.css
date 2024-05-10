@@ -1,0 +1,132 @@
+body {
+    background: linear-gradient(to bottom, #e6f5ff 0%, #cceeff 100%);  
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', serif;
+}
+
+h1 {
+    color: #007acc;  
+    font-size: 32px;
+    font-weight: 900;
+}
+
+h2 { 
+    color: #007acc;  
+    font-size: 25px;
+    font-weight: 500;
+}
+
+h3 { 
+    color: #3399ff;  
+    font-size: 20px;
+    font-weight: 500;
+}
+
+a {
+    color: #1e90ff;  
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0a2942;  
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+  
+li {
+    display: inline-block;
+    padding: 10px;
+    background: rgba#cceeff;  
+    border-radius: 5px;
+}
+
+i {
+    font-size: 50px;
+    color: #b0c4de; 
+    background: none; 
+}
+
+i:hover {
+    color: #4682b4;  
+}
+
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 300px;
+    }
+}
+
+.card-white {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 35px;
+    margin: 35px auto;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.card-white:hover {
+    transform: scale(1.05);
+    background-color: #002244; 
+}
+
+.btn-blue {
+    background: linear-gradient(to right, #007bff, #004f9f); 
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.btn-blue:hover {
+    background-color: #002244; 
+    color: white;
+}
+
+#intro p {
+    margin-bottom: 40px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
